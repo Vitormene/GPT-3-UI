@@ -3,7 +3,7 @@ import styles from '../styles/Possibility.module.css'
 import possibilityImage from '../public/assets/possibility.png'
 const Possibility = () => {
     return (
-      <div className={styles.gpt3__possibility + ' section__padding'} id="possibility">
+      <div className={styles.gpt3__possibility + ' section__padding'} id="possibility" >
         <div className={styles.gpt3__possibility_image}>
           <Image src={possibilityImage} alt="possibility" />
         </div>
